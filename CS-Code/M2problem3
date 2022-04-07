@@ -1,0 +1,21 @@
+a) The output at Line 15 is "205"
+
+b)This is because the command/assignment x=0, within the bop function,
+  is strictly within the scope of the bop function. That assignment 
+  value is not replaced within the scope of the main function. We are
+  only passing in a copy of x.
+
+c) 3 1 6 
+d) When calling the function biff the biff function incrememnts 1 to 
+   every element wihtin the array. However, the functions looks for 
+   the address of the array and changes the terms in the address, 
+   therefore permanently changing the value of array a[].
+
+e) 20 10
+
+f) The initial array is passed to the ugh function, however within
+   the function a "new" array is delcared and the new array arr is 
+   filled with 0's while the initial array is unaffected. The keyword
+   new allows for a essentially a copy of arr be made so that []b is 
+   unaffected.
+
